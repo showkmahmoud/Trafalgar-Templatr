@@ -1,18 +1,4 @@
 @media (max-width: 74.9375em) {
-  .header .navigation__list {
-    width: 90%;
-    position: fixed;
-    bottom: 10px;
-    background: #fff;
-    padding: 10px 20px;
-    left: 6%;
-    border-radius: 30px;
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-  }
-  .header .logo__img {
-    width: 20%;
-    padding-top: 10px;
-  }
   .justify-right {
     justify-content: space-between;
   }
@@ -28,29 +14,41 @@
     width: 99%;
     margin: 30px auto;
   }
-  .pricing__cart__item__header {
-    margin: 0 auto 30px;
+  .header__navbar__logo {
+    width: 20%;
   }
-  .footer__Follow {
-    margin-top: -100px;
+  .header__navbar {
+    padding-top: 10px;
   }
-}
-
-@media (max-width: 47.9375em) {
-  .header .navigation__list {
-    width: 95%;
+  .header__navbar__list {
+    width: 90%;
     position: fixed;
     bottom: 10px;
     background: #fff;
     padding: 10px 20px;
-    left: 1%;
+    left: 6%;
     border-radius: 30px;
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    z-index: 111;
   }
-  .header .logo__img {
-    width: 45%;
-    padding-top: 10px;
+  .header__navbar__list {
+    justify-content: space-between;
   }
+  .service__carts__item_img {
+    margin: 0 auto;
+  }
+  .service__carts__item {
+    text-align: center;
+  }
+  .row__cell__img {
+    width: 35%;
+  }
+  .row__cell__text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 47.9375em) {
   .justify-right {
     justify-content: space-between;
   }
@@ -58,13 +56,40 @@
     width: 99%;
     margin: 30px auto;
   }
+  .col-sm-6 {
+    width: 50%;
+    margin: 30px 0;
+  }
   .col-sm-7 {
     width: 55%;
   }
-  .pricing__cart__item__header {
-    margin: 0 auto 30px;
+  .header__navbar__logo {
+    width: 30%;
   }
-  .footer__Follow {
-    margin-top: -100px;
+  .header__navbar__list {
+    width: 90%;
+    position: fixed;
+    bottom: 10px;
+    background: #fff;
+    padding: 10px 20px;
+    left: 6%;
+    border-radius: 30px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    z-index: 111;
+  }
+  .header__navbar__list {
+    justify-content: space-between;
+  }
+  .service__carts__item_img {
+    margin: 0 auto;
+  }
+  .service__carts__item {
+    text-align: center;
+  }
+  .row__cell__img {
+    width: 25%;
+  }
+  .row__cell__text {
+    width: 100%;
   }
 }
